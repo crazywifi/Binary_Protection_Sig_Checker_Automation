@@ -29,7 +29,7 @@ $sigcheckPath = Join-Path -Path $batchDirectory -ChildPath "sigcheck.exe"
 
 # Run sigcheck.exe command
 $outputPath2 = Join-Path -Path $outputFolder -ChildPath "sigcheck1.csv"
-& $sigcheckPath -c -s $directoryPath | Out-File -FilePath $outputPath2 -Encoding ascii
+& $sigcheckPath -accepteula -c -s $directoryPath | Out-File -FilePath $outputPath2 -Encoding ascii
 
 # Print a message to confirm execution
 Write-Host "sigcheck.exe executed successfully. Output saved to: $outputPath2"
