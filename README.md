@@ -7,5 +7,7 @@ It might be helpful for someone.
 
 ## Steps:
 Right click on "run_BinaryProtection_Sigcheck_check.bat" and run as admin.
+
 Enter the directory path, that you want to check and please note the path should not contain any quotes.
+
 Press enter and wait for the result on the screen.
